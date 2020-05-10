@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2054777",
+      "name": "钱盾",
+      "font_class": "qiandun",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "3617968",
+      "name": "花呗",
+      "font_class": "huabei",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "13828291",
+      "name": "UC",
+      "font_class": "UC",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    }
+  ]
+}

@@ -1,0 +1,1092 @@
+@charset "utf-8";
+
+.main-wrap{
+    min-height: 6320px;
+}
+.main-header{
+    width: 1070px;
+}
+.main-box{
+    height: 44px;
+    margin-top: 16px;
+}
+.logo a{
+    display: block;
+    width: 105px;
+    height: 43px;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.search{
+    float: right;
+    margin-top: 4px;
+    width: 811px;
+    height: 35px;
+}
+.search .wraper{
+    float: left;
+    border: 2px solid #f50;
+    border-right: none;
+    width: 729px;
+    height: 31px;
+}
+.search .wraper .tab-wraper{
+    position: relative;
+    float: left;
+    width: 69px;
+    height: 32px;
+}
+.search .wraper .tab{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 67px;
+    overflow: hidden;
+    height: 31px;
+    line-height: 31px;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+.search .wraper .tab .triggers{
+    text-indent: 15px;
+    color: #6b6b6b;
+    font-size: 12px;
+}
+.search .wraper .tab .selected{
+    background: #f5f5f5;
+}
+.search .wraper .tab .trigger{
+    background: #fff;
+}
+.search .wraper .tab .icon-angle-down{
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    font-size: 12px;
+}
+.wraper .inputs{
+    width: 660px;
+    height: 31px;
+    position: relative;
+    vertical-align: middle;
+}
+.wraper .inputs .search-box input{
+    width: 660px;
+    height: 31px;
+    border: none 0;
+    outline: 0;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.wraper .inputs .search-img{
+    position: absolute;
+    right:7px;
+    top: 5px;
+    z-index: 3;
+    height: 20px;
+    width: 20px;
+    color: #6b6b6b;
+}
+.search .btn{
+    float: left;
+    width: 80px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background: #f50;
+}
+.grid-total{
+    width: 1350px;
+    height: 5653px;
+}
+.grid-total .grid-left{
+    float: left;
+    width: 1070px;
+    min-height: 5476px;
+}
+.m-tab{
+    margin-top: 15px;
+    height: 38px;
+    border-bottom: 2px solid #f40;
+}
+.m-tab .tabs{
+    font-size: 16px;
+}
+.tabs .tab{
+    float: left;
+    line-height: 38px;
+}
+.tabs .tab .selected{
+    background: #f40;
+    color: #fff;
+}
+.tabs .tab a{
+    display: block;
+    height: 38px;
+    padding: 0 20px;
+    color: #333;
+}
+.m-nav{
+    margin-top: 10px;
+    height: 222px;
+}
+.m-nav .crumb{
+    margin-left: 20px;
+}
+.m-nav .crumb .toggle-btn{
+    float: right;
+    margin: 0 0 0 4px;
+    width: 63px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #e8e8e8;
+    padding: 0 9px;
+    background: #f6f6f6;
+    cursor: pointer;
+    position: relative;
+}
+.m-nav .crumb span{
+    font-size: 12px;
+    color: #333;
+}
+.m-nav .crumb .toggle-btn .expend{
+    display: none;
+}
+.m-nav .crumb .toggle-btn .icon-angle-down{
+    margin-left: 8px;
+   position: absolute;
+   right: 5px;
+   top:2px;
+}
+.m-nav .crumb .cat-text{
+    margin-top: 4px;
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    color: #666666;
+}
+.m-nav .crumb .icon-btn{
+    color: #666666;
+}
+.m-nav .groups{
+    margin-top: 11px;
+    position: relative;
+}
+.m-nav .group{
+    border: 1px solid #e8e8e8;
+    margin-top: -1px;
+}
+.m-nav .group .row{
+    position: relative;
+    margin: 0 8px;
+}
+.m-nav .group .head{
+    position: absolute;
+    left: 11px;
+    top: 9px;
+    color: #999;
+}
+.m-nav .group .head .title{
+    float: left;
+    max-width: 80px;
+}
+.m-nav .group .body{
+    padding: 0 100px 0 112px;
+}
+.m-nav .group .body .items{
+    height: 36px;
+    overflow: hidden;
+}
+.m-nav .group .body .item{
+    float: left;
+    margin: 9px 40px 9px 0;
+    height: 18px;
+    color: #000;
+}
+.m-nav .group .body .text{
+    float: left;
+    max-width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.m-nav .group .foot{
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+.m-nav .group .foot .switch-multi{
+    position: absolute;
+    right: 60px;
+    height: 16px;
+    padding: 0 3px;
+    line-height: 16px;
+    border: 1px solid #dad9d9;
+    cursor: pointer;
+    white-space: nowrap;
+}
+span{
+    font-size: 12px;
+}
+.m-nav .group .foot .show-more{
+    position: absolute;
+    right: 10px;
+    height: 18px;
+    padding-right: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.m-nav .group .foot .icon-angle-down{
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    cursor: pointer;
+    width: 7px;
+    height: 4px;
+    font-size: 6px;
+}
+.m-nav .group .foot .show-less{
+    display: none;
+    position: absolute;
+    right: 10px;
+    height: 18px;
+    padding-right: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.m-related{
+    margin-top: 10px;
+    height: 44px;
+}
+.m-related .inner{
+    height: 18px;
+    overflow: hidden;
+    padding: 12px 19px;
+    color: #9a9a9a;
+    border: 1px solid #e8e8e8;
+    font-size: 12px;
+}
+.m-related .title{
+    float: left;
+    white-space: nowrap;
+}
+.m-related .item{
+    height: 18px;
+}
+.m-related .link{
+    float: left;
+    color: #6c6c6c;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+.m-sortbar{
+    margin-top: 10px;
+}
+.m-sortbar .sort-row{
+    height: 41px;
+}
+.m-sortbar .sort-row .sort-inner{
+    height: 39px;
+    background: #f5f5f5;
+    border: 1px solid #e8e8e8;
+}
+.m-sortbar .sorts{
+    float: left;
+    line-height: 39px;
+}
+.m-sortbar .sorts .sort{
+    float: left;
+}
+.m-sortbar .sorts .first{
+    margin-left: 0;
+    border-left: none;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    border-color: #e5e5e5;
+    color: #f50!important;
+}
+.m-sortbar .sorts .link{
+    float: left;
+    display: block;
+    height: 39px;
+    margin-left: -1px;
+    padding: 0 19px;
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    color: #6d6d6d;
+    font-size: 12px;
+}
+.m-sortbar .prices .inputs{
+    height: 39px;
+    width: 130px;
+}
+.m-sortbar .prices .inputs{
+    height: 39px;
+}
+.m-sortbar .prices .inputs{
+    padding: 8px 0 0 10px;
+}
+.m-sortbar .prices .inputs .item{
+    float: left;
+    width: 55px;
+}
+.m-sortbar .prices .inputs .input{
+    width: 45px;
+    padding: 0 4px;
+    height: 21px;
+    border: 1px solid #dfdfdf;
+    line-height: normal;
+    font-family: arial;
+}
+.m-sortbar .prices .inputs .sep{
+    float: left;
+    width: 10px;
+    text-align: center;
+}
+.m-sortbar .prices .ranks{
+    float: left;
+    margin: 9px 0 0 15px;
+    height: 20px;
+}
+.m-sortbar .prices .ranks .first{
+    width: 16px;
+}
+.m-sortbar .prices .ranks .item{
+    position: relative;
+    float: left;
+    height: 22px;
+    width: 15px;
+    color: #3d3d3d;
+}
+.m-sortbar .prices .ranks .first .bg{
+    border-left: 1px solid #e5e5e5;
+}
+.m-sortbar .prices .ranks .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 14px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+.m-sortbar .prices .ranks .first .bar{
+    left: 0;
+}
+.m-sortbar .prices .ranks .bar{
+    position: absolute;
+    bottom: 0;
+    width: 14px;
+    border: 1px solid #c7c7c7;
+    background: #ededed;
+}
+.m-sortbar .pager{
+    float: right;
+    line-height: 39px;
+}
+.m-sortbar .pager .item{
+    float: left;
+    height: 39px;
+}
+.m-sortbar .pager .link{
+    float: left;
+    display: block;
+    padding: 0 5px;
+    height: 39px;
+    font-size: 12px;
+    color: #404040;
+}
+.m-sortbar .pager .current{
+    color: #f40;
+}
+.m-sortbar .styles .item{
+    float: left;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    margin-left: -1px;
+}
+.m-sortbar .styles .active{
+    background: #fff;
+}
+.m-sortbar .styles .link{
+    float: left;
+    width: 40px;
+    height: 39px;
+}
+.m-sortbar .styles .iconfont{
+    display: block;
+    margin-top: 14px;
+    margin-left: 14px;
+    font-size: 12px;
+    color: #333;
+}
+.m-sortbar .location{
+    float: right;
+    height: 39px;
+    position: relative;
+    color: #6d6d6d;
+}
+.m-sortbar .location .trigger{
+    position: relative;
+    width: 89px;
+    height: 39px;
+    cursor: pointer;
+}
+.m-sortbar .location .trigger .inner{
+    position: absolute;
+    height: 39px;
+    width: 89px;
+    text-align: center;
+    line-height: 39px;
+}
+.m-sortbar .location .trigger .icon-angle-down{
+    font-size: 12px;
+}
+.m-sortbar .filter-row{
+    height: 38px;
+    border: 1px solid #e8e8e8;
+    border-top: none;
+    position: relative;
+}
+.m-sortbar .filter-row .filter-inner{
+    width: 710px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 70px;
+    overflow: hidden;
+    background: #fff;
+}
+.m-sortbar .filter-row .filters{
+    color: #6d6d6d;
+    width: 100%;
+    float: left;
+}
+.m-sortbar .filter-row .filter{
+    float: left;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    margin-left:12px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #6d6d6d;
+}
+.m-sortbar .filter-row .filter .icon-zhengfangxin{
+    float: left;
+    font-size:16px;
+    color: #ccc;
+}
+.m-sortbar .filter-row .filter .text{
+    float: left;
+    margin-left: 4px;
+}
+.m-sortbar .filter-row .more{
+    position: absolute;
+    right: 0;
+    height: 18px;
+    top: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ededed;
+}
+.m-sortbar .filter-row .more .icon-angle-down{
+    font-size: 8px;
+}
+.m-itemlist{
+    height: 4968px;
+}
+.m-itemlist .grid{
+    margin-right: -20px;
+}
+.m-itemlist .grid .item{
+    margin-right: 20px;
+    width: 250px;
+    height: 390px;
+    margin-top: 20px;
+    float: left;
+    border: 1px solid #ededed;
+}
+.m-itemlist .grid .item .pic-box{
+    height: 250px;
+    position: relative;
+}
+.m-itemlist .grid .item .pic-box .pic img{
+    width: 100%;
+    height: 100%;
+}
+.m-itemlist .grid .item .ctx-box{
+    height: 121px;
+}
+.m-itemlist .grid .row{
+    padding: 0 10px;
+}
+.m-itemlist .grid .row-1{
+    margin-top: 11px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.m-itemlist .grid .pirce{
+    float: left;
+    font-size: 18px;
+    zoom: 1;
+    font-family: arial;
+}
+.m-itemlist .grid .pirce span{
+    color: #f40;
+    margin-right: 3px;
+    font-size: 18px;
+}
+.m-itemlist .grid .pirce strong{
+    letter-spacing: 0.8px;
+    color: #f40;
+    font-weight: 700;
+}
+.m-itemlist .grid .icon-icon-test{
+    margin-left:2px;
+    font-size: 26px;
+    color: #f40;
+}
+.m-itemlist .grid .title{
+    margin-top: 6px;
+    height: 38px;
+    overflow: hidden;
+    font-weight: 400;
+}
+.m-itemlist .grid .title a{
+    font-size: 12px;
+    color: #3d3d3d;
+}
+.m-itemlist .grid .row-3{
+    margin-top: 5px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.m-itemlist .shopname{
+    color: #888;
+    text-decoration: underline;
+    float: left;
+    font-size: 12px;
+}
+.m-itemlist .location{
+    color: #888;
+    font-size:12px;
+}
+.m-itemlist .grid .row-4{
+    padding: 0 10px 0 6px;
+    margin-top: 10px;
+    height: 20px;
+    overflow:hidden;
+}
+.m-itemlist .grid .feature-icons{
+    width: 210px;
+    float: left;
+}
+.m-itemlist .grid .icon-has-more{
+    height: 16px;
+    overflow: hidden;
+}
+.m-itemlist .grid .feature-icons .icons{
+    width: 210px;
+    float: left;
+}
+.m-itemlist .grid .icon{
+    float: left;
+    margin-left: 4px;
+    font-size: 0;
+}
+.m-itemlist .grid .icon .icon-tianmao{
+    color: red;
+}
+.m-itemlist .grid .icon-wangwang{
+    color: steelblue;
+}
+.m-itemlist .grid .deal-cnt{
+    float: right;
+    color: #888;
+    font-size: 12px;
+}
+.m-page{
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px 0;
+    height: 37px;
+}
+.m-page .wraper{
+    min-width: 650px;
+    float: left;
+    margin-left: 50%;
+}
+.m-page .inner{
+    float: left;
+    margin-left: -50%;
+}
+.m-page .prev-disabled{
+    color: #ccc;
+}
+.m-page .item{
+    position: relative;
+    float: left;
+    margin-left: -1px;
+    width: 35px;
+    border: 1px solid #ededed;
+    height: 35px;
+    color: #3e3e3e;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+.m-page .prev{
+    margin-right: 6px;
+    margin-left: 0;
+    width: 70px;
+    font-weight: 400;
+}
+.m-page .item .num{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    color: #ccc;
+}
+.m-page .item .num .icon-zuojian{
+    font-size: 12px;
+    color: #ededed;
+}
+.m-page .active{
+    position: relative;
+    z-index: 1;
+    background: #f40;
+    color: #fff;
+    border-color: #f40;
+    cursor: default;
+}
+.m-page .item a{
+    color: #3d3d3d;
+}
+.m-page .dot{
+    border: none;
+    line-height: 27px;
+    width: 24px;
+    cursor: default;
+}
+.m-page .next{
+    margin-left: -1px;
+    width: 70px;
+    font-weight: 400;
+}
+.m-page .next .icon-youjian{
+    font-size: 12px;
+}
+.m-page .total,.m-page .text,.m-page .input{
+    color: #999;
+    float: left;
+}
+.m-page .btn ,.m-page .input{
+    margin-top: 7px;
+    float: left;
+}
+.m-page .btn, .m-page .input, .m-page .text {
+    margin-left: 5px;
+}
+.m-page .total{
+    margin-left: 10px;
+    line-height: 37px;
+    font-size: 12px;
+}
+.m-page .text{
+    line-height: 37px;
+    font-size: 12px;
+}
+.m-page .input{
+    width: 35px;
+    border: 1px solid #ededed;
+    height: 21px;
+    text-align: center;
+}
+.m-page .btn{
+    display: block;
+    height: 21px;
+    width: 43px;
+    border-radius: 2px;
+    background-clip: padding-box;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 21px;
+    cursor: pointer;
+}
+.grid-total .grid-right{
+    margin-left: 10px;
+    width: 270px;
+    height: 5653px;
+}
+.m-p4p{
+    margin-top: 10px;
+}
+.global{
+    background: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 12px;
+    border: 1px solid #ededed;
+}
+.global-banner{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    text-indent: 20px;
+}
+.global-banner .banner-ad{
+    float: right;
+    position: relative;
+    background: url(../images/guanggao.png) 0 0;
+    width: 26px;
+    height: 16px;
+    right: 8px;
+    top:13px
+}
+.global-banner a{
+    color: #9d9d9d;
+}
+.global-list{
+    position: relative;
+    z-index: 1;
+}
+.global-item{
+    position: relative;
+    padding: 8px 8px 11px 8px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.imgwrap{
+    height: 250px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    text-align: center;
+}
+.imglink{
+    display: block;
+    width: 250px;
+    height: 250px;
+}
+.imglink img{
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.global-item .line1{
+    height: 16px;
+    margin: 7px 0;
+}
+.global-item .line1 .icon-tianmao{
+    float: left;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    color: red;
+}
+.global-item .line1 .redtitle{
+    display: block;
+    overflow: hidden;
+    color: #3d3d3d;
+    height: 16px;
+    line-height: 16px;
+}
+.global-item .line2{
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.price{
+    float: left;
+    color: #f40;
+    text-align: center;
+    font: 700 18px Verdana,Arial;
+    line-height: 18px;
+}
+.global-item .line2 .price-old{
+    color: #AAa;
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size:12px;
+    margin-left: 8px;
+}
+.global-item .line2 .postfree{
+    float:right;
+    display: block;
+    width: 37px;
+    color: #999;
+}
+.global-item .line3{
+    position: relative;
+    margin: 8px 0 0 0;
+    height: 18px;
+}
+.global-item .line3 .sell{
+    float: left;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    color: #888;
+}
+.global-item .line3 .scores{
+    position: relative;
+    float: right;
+    width: 99px;
+    height: 18px;
+}
+.global-item .line3 .scores .score-desc{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 5px;
+    width: 94px;
+    height: 16px;
+    border: 1px solid #ccc;
+    color: #999;
+    line-height: 16px;
+}
+.global-item .line3 .scores .score-desc .icon-angle-down{
+    font-size: 12px;
+}
+.global-foot{
+    position: relative;
+    height: 45px;
+}
+.global-foot a{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top:9px;
+    width: 66px;
+    height: 25px;
+    border-radius: 1px;
+    background: #f40;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+.mainsrp-p4pBottom{
+    width: 1350px;
+    height: 552px;
+}
+.mainsrp-p4pBottom .m-p4p{
+    margin-top: 10px;
+}
+.global_bottom{
+    height: 500px;
+    background: #fff;
+    text-align: left;
+    margin: 20px 0;
+    border: 1px solid #EDEDED
+}
+.global_bottom .textlink-bar{
+    overflow: hidden;
+    padding: 0 10px;
+    height: 35px;
+    line-height:35px;
+    background: #f5f5f5;
+}
+.global_bottom .textlink-bar .banner{
+    float: left;
+    height: 35px;
+    text-indent: 4px;
+    line-height:35px;
+}
+.global_bottom .textlink-bar .banner a{
+    color: #f40;
+    font-weight: 600;
+    font-size: 16px;
+}
+.global_bottom .textlink-bar .zhitongche{
+    position: relative;
+    float: right;
+    height: 35px;
+    line-height: 35px;
+}
+.global_bottom .textlink-bar .zhitongche a{
+    color: #000;
+    font-size: 12px;
+}
+.global_bottom .textlink-bar .img-ad{
+    position: relative;
+    float: right;
+    background: url(../images/guanggao.png) 0 0;
+    width: 26px;
+    height: 16px;
+    margin: 10px 5px;
+}
+.global_bottom .textlink-bar .textlink{
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;
+    height: 35px;
+    width: 1000px;
+}
+.global_bottom .textlink-bar .textlink li{
+    float: left;
+    margin-right: 25px;
+}
+.global_bottom .textlink-bar .textlink li a{
+    color: #000;
+    font-size: 12px;
+}
+.global_bottom .line{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 2px;
+}
+.global_bottom .line .line-left{
+    float: left;
+    width: 88px;
+    height: 2px;
+    background: #f40;
+}
+.global_bottom .line .line-right{
+    height: 2px;
+    background: #ededed;
+}
+.global_bottom .item-list{
+    height: 380px;
+    position: relative;
+    z-index: 1;
+    margin-right: -50px;
+    padding: 0 14px;
+}
+.global_bottom .item-list .item{
+    position: relative;
+    border: 1px solid #ededed;
+    float: left;
+    width: 250px;
+    height: 376px;
+    margin-right: 15px;
+}
+.global_bottom .item-list .item .imgwrap{
+    height: 250px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+}
+.global_bottom .item-list .item .line1{
+    height: 18px;
+    line-height: 18px;
+    margin: 10px;
+    overflow: hidden;
+}
+.global_bottom .item-list .item .line1 .postfree{
+    float: right;
+    display: block;
+    margin-top: 2px;
+    font-size: 26px;
+    color: red;
+}
+.global_bottom .item-list .item .line2{
+    height: 30px;
+    margin: 2px 10px;
+}
+.global_bottom .item-list .item .line2 .redtitle{
+    display: block;
+    overflow: hidden;
+    color: #3d3d3d;
+    height: 30px;
+    line-height: 15px;
+    font-size: 12px;
+}
+.global_bottom .item-list .item .line3{
+    position: relative;
+    margin: 5px 10px;
+    height: 18px;
+    overflow: hidden;
+}
+.global_bottom .item-list .item .line3 .sell{
+    float: right;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #888;
+}
+.global_bottom .item-list .item .line3 .shop{
+    float: left;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    color: #888;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.global_bottom .item-list .item .line4{
+    margin: 10px;
+    height: 16px;
+    width: 60px;
+    overflow: hidden;
+}
+.global_bottom .item-list .item .line4 .icon-jinpai{
+    float: left;
+    font-size: 16px;
+    color: red;
+    margin: 0px 5px 0 0px;
+}
+.global_bottom .foot{
+    position: relative;
+    margin-top: 15px;
+    height: 45px;
+}
+.global_bottom .foot a{
+    position: absolute;
+    right: 12px;
+    width: 66px;
+    height: 25px;
+    border-radius: 1px;
+    background: #F40;
+    color: #FFF;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+}
+.mainsrp-bottomsearch{
+    width: 1350px;
+    height: 35px;
+}
+.m-bottomsearch{
+    margin-top: 20px;
+}
+.m-bottomsearch .inner {
+    height: 35px;
+    padding: 0 20%;
+}
+.m-bottomsearch .submit{
+    position: relative;
+    float: right;
+    width: 80px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background: #f40;
+    color: #fff;
+    font-weight: 700;
+}
+.m-bottomsearch .input-box {
+    margin-right: 80px;
+    border: solid 2px #f50;
+    border-right: none;
+    height: 31px;
+    overflow: hidden;
+}
+.m-bottomsearch .input {
+    height: 100%;
+    width: 100%;
+    margin-left: 5px;
+    border: none 0;
+    outline: 0;
+    font-size: 14px;
+}

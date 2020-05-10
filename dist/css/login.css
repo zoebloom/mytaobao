@@ -1,0 +1,232 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+.header-wrap,.login-adlink,.content-layout{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-wrap{
+    height: 88px;
+    padding: 22px 0;
+}
+.logo h1{
+    display: block;
+    float: left;
+    zoom: 1;
+    width: 110px;
+    height: 44px;
+}
+.logo h1 a{
+    display: block;
+}
+.logo h1 .icon-taobaowang{
+    font-size: 36px;
+    color: #f40;
+    font-weight: 400;
+}
+.logo .link{
+    float: right;
+    line-height: 44px;
+    color: #666;
+    font-size: 12px;
+}
+.logo .link:hover{
+    color: #f40;
+}
+.logo .icon-xinxi{
+    font-size: 16px;
+    color: #f40;
+}
+#content{
+    width: 100%;
+    position: relative;
+}
+.login-newbg{
+    width: 100%;
+    background: url(https://gw.alicdn.com/tfs/TB1miU6DFP7gK0jSZFjXXc5aXXa-2500-600.jpg) no-repeat;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: 50%;
+}
+.login-adlink{
+    position: relative;
+    z-index: 3;
+}
+.login-adlink a{
+    position: absolute;
+    width: 630px;
+    height: 440px;
+    left: 80px;
+    top: 80px;
+}
+.content-layout{
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    z-index: 2;
+}
+.login-box-wrap{
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    width: 350px;
+    height: 350px;
+    z-index: 2;
+}
+.login-box-wrap .login-box{
+    width: 350px;
+    min-height: 350px;
+    padding: 25px 25px 23px;
+    color: #6c6c6c;
+    background-color:hsla(0,0%,100%,.9) ;
+    margin: 0 auto;
+}
+.login-table{
+    position: static;
+}
+.login-table .icon-ico{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 52px;
+    line-height: 52px;
+    cursor: pointer;
+    color: #f40;
+}
+.login-table .login-tip{
+    position: absolute;
+    top: 5px;
+    right: 58px;
+} 
+.login-table .login-tip .poptip{
+    border: 1px solid 1px solid #f3d995;
+    background: #fefcee;
+    line-height: 16px;
+    position: relative;
+    z-index: 9999;
+    padding: 5px 10px;
+}
+.login-table .login-tip .poptip .poptip-arrow{
+    position: absolute;
+    z-index: 10;
+    top: 8px;
+    right: 0;
+}
+.login-table .login-tip .poptip .poptip-content{
+    color: #ff9000;
+    font-size: 12px;
+    font-weight: 400;
+}
+.login-content{
+    padding-top: 2px;
+    margin-bottom: 20px;
+}
+.login-password .login-tab{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    margin: 8px 0;
+}
+.login-password .login-tab a{
+    height: 18px;
+    line-height: 5px;
+    font-size: 16px;
+    color: #3c3c3c;
+    margin: 9px 10px 0 0;
+    font-weight: 700;
+}
+.login-password .login-tab a:first-child{
+    border-bottom: 2px solid black;
+}
+.login-form{
+    height: 240px;
+}
+.fm-field{
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 300px;
+    height: 42px;
+}
+.fm-field .fm-label-icon{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+    background-color: #ccc;
+}
+.fm-field .fm-label-icon i{
+    font-size: 24px;
+}
+.fm-field .input-wrap{
+    width: 300px;
+    height: 42px;
+    background: #fff;
+}
+.fm-field .fm-text{
+    width: 300px;
+    border: 1px solid #ccc;
+    height: 42px;
+    outline: none;
+    font-size: 14px;
+    padding-left: 50px;
+}
+.fm-submit{
+    background: #f40;
+    border-color: #f40;
+    font-size: 16px;
+    border: 1px solid #ff9000;
+    border-radius: 3px;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    cursor: pointer;
+}
+.login-blocks{
+    text-align: left;
+    margin-top: 16px;
+    width: 300px;
+    height: 24px;
+}
+.login-blocks a{
+    color: #6c6c6c;
+    font-size: 12px;
+}
+.login-blocks .weibo-login .icon-weibo{
+    color: #e52425;
+    font-size: 16px;
+    margin-right: 3px;
+}
+.login-blocks .alipay-login{
+    margin-left: 10px;
+}
+.login-blocks .alipay-login .icon-zhifubao{
+    color: #1ba9ee;
+    font-size: 16px;
+    margin-right: 3px
+}
+.login-links{
+    width: 300px;
+    height: 17.6px;
+    margin-top: 16px;
+    margin: 8px 0;
+    text-align: right;
+}
+.login-links a{
+    color: #6c6c6c;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer-wrap{
+    margin-top: 60px;
+}

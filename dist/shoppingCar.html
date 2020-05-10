@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shoppingCar.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./icon3/iconfont.css">
+</head>
+<body>
+    <div id="nav" style="width: 100%;">
+        <div class="nav-wrap">
+            <ul class="nav_left float_l">
+                <li>
+                    <a href="">大头撒
+                        <span class="iconfont icon-angle-down"></span>
+                    </a>  
+                </li>
+                <li>
+                    <a href="">手机逛淘宝</a>
+                </li>
+            </ul>
+            <ul class="nav_right float_r" style="width: 680px;">
+                <li>
+                    <a href="#">淘宝网首页</a>
+                </li>
+                <li>
+                    <a href="#">我的淘宝</a>
+                    <span class="iconfont icon-angle-down"></span>
+                </li>
+                <li>
+                    <span class="iconfont icon-gouwuche"></span>
+                    <a href="#">购物车</a>
+                    <span class="iconfont icon-angle-down"></span>
+                </li>
+                <li>
+                    <span class="iconfont icon-xingxing1x"></span>
+                    <a href="#">收藏夹</a>
+                    <span class="iconfont icon-angle-down"></span>
+                </li>
+                <li>
+                    <a href="#">商品分类</a>
+                    <span class="iconfont icon-angle-down"></span>
+                </li>
+                <li class="only">|</li>
+                <li>
+                    <a href="#">千牛卖家中心</a>
+                    <span class="iconfont icon-angle-down"></span>
+                </li>
+                <li>
+                    <a href="#">联系客服</a>
+                    <span class="iconfont icon-angle-down"></span>
+                </li>
+                <li>
+                    <span class="iconfont icon-nav"></span>
+                    <a href="#">网站导航</a>
+                    <span class="iconfont icon-angle-down"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div class="content-wrap clear_fix">
+            <div class="tb-header">
+                <h1 class="logo float_l">
+                    <a href="#" title="淘宝网 Taobao.com">
+                        淘宝网
+                        <span></span>
+                    </a>
+                </h1>
+                <div class="search float_r">
+                    <div class="search-tigger">
+                        <ul class="search-nav">
+                            <li class="selected">
+                                <a href="#">宝贝</a>
+                            </li>
+                            <li>
+                                <a href="#">店铺</a>
+                            </li>
+                            <li>
+                                <a href="#">天猫</a>
+                            </li>
+                        </ul>
+                        <s></s>
+                    </div>
+                    <div class="search-panel">
+                        <form action="">
+                            <div class="search-button">
+                                <button class="btn-search float_r">搜索</button>
+                                <div class="search-hp float_l">
+                                    <div class="search-combox">
+                                        <div class="input-box">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <i class="iconfont icon-weibiaoti106"></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tb-cart">
+                <div class="cart">
+                    <div class="cart-bar">
+                        <ul class="cart-switch">
+                            <li class="btn-cart-switch cart-switch-0">
+                                <a href="#">
+                                    <em>全部商品</em>
+                                    <span class="number">8</span>
+                                    <span class="pipe"></span>
+                                </a>
+                            </li>
+                            <li class="btn-cart-switch cart-switch-2">
+                                <a href="#">
+                                    <em>降价商品</em>
+                                    <span class="number">1</span>
+                                    <span class="pipe"></span>
+                                </a>
+                            </li>
+                            <li class="btn-cart-switch cart-switch-4">
+                                <a href="#">
+                                    <em>库存紧张</em>
+                                    <span class="number">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="cart-sum">
+                            <span class="pay-text">已选商品(不含运费)</span>
+                            <strong class="price">
+                                <em>
+                                    <span class="symbol">&nbsp;</span>
+                                    0.00
+                                </em>
+                            </strong>
+                            <a href="#" class="submit-btn">结&nbsp;算</a>
+                        </div>
+                        <div class="wrap-line">
+                            <div class="floater" style="width: 123px;left: -1px;"></div>
+                        </div>
+                    </div>
+                    <div class="cart-main">
+                        <div class="cart-table-th">
+                            <div class="wp">
+                                <div class="th th-chk">
+                                    <div class="select-all">
+                                        <div class="cart-checkbox">
+                                            <input type="text">
+                                            <label for=""></label>  
+                                        </div>
+                                        &nbsp;&nbsp;全选
+                                    </div>
+                                </div>
+                                <div class="th th-item">
+                                    <div class="td-inner">商品信息</div>
+                                </div>
+                                <div class="th th-info">
+                                    <div class="th-inner">&nbsp;</div>
+                                </div>
+                                <div class="th th-price">
+                                    <div class="th-inner">单价</div>
+                                </div>
+                                <div class="th th-amount">
+                                    <div class="th-inner">数量</div>
+                                </div>
+                                <div class="th th-sum">
+                                    <div class="th-inner">金额</div>
+                                </div>
+                                <div class="th th-op">
+                                    <div class="th-inner">操作</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ord-list">
+                            <div style="height: auto;">
+                                <div class="ord-body">
+                                    <div class="shop clear_fix">
+                                        <div class="shop-info">
+                                            <div class="cart-checkbox">
+                                                <input type="text">
+                                                <label for=""></label>  
+                                            </div>
+                                            <span class="iconfont icon-tianmao"></span>
+                                            店铺：
+                                            <a href="#">回力萨莎专卖店</a>
+                                            <span class="ww-light">
+                                                <a href="#">
+                                                    <span class="iconfont icon-wangwang"></span>
+                                                </a>
+                                            </span>
+                                            <span class="shop-coupon">
+                                                <em>优惠券</em>
+                                                <span class="iconfont icon-angle-down"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ord-content">
+                                        <div class="item-list">
+                                            <div class="bundle-last">
+                                                <div class="bundle-hd">
+                                                    <div class="td-chk"></div>
+                                                    <div class="bd-title">
+                                                        2件包邮
+                                                        <i class="icon-bd-title"></i>
+                                                    </div>
+                                                    <div class="bd-promos">
+                                                        <div class="bd-has-promo">
+                                                            已享优惠：
+                                                            <span class="bd-has-promo-content">包邮</span>
+                                                            &nbsp;
+                                                        </div>
+                                                        <div class="act-promo">
+                                                            <div class="act-promo-warpper">
+                                                                <ul>
+                                                                    <li>满两件，包邮</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bundle-main">
+                                                    <div class="item-list">
+                                                        <div class="item-holder">
+                                                            <div class="item-body">
+                                                                <ul class="item-content clear_fix">
+                                                                    <li class="td td-chk">
+                                                                        <div class="td-inner">
+                                                                            <div style="height: 82px;position: relative;">
+                                                                                <div class="cart-checkbox">
+                                                                                    <input type="text">
+                                                                                    <label for=""></label>  
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-item">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-pic">
+                                                                                <a href="#">
+                                                                                    <img src="https://img.alicdn.com/bao/uploaded/i2/2113517056/O1CN01OvfU9F21zh8YmNZGb_!!2113517056.jpg_80x80.jpg" alt="">
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item-info">
+                                                                                <div class="item-basic-info">
+                                                                                    <a href="#" class="item-title">【2件包邮】回力中/高筒棉袜男女款ins港风系列运动潮袜百搭白袜</a>
+                                                                                </div>
+                                                                                <div class="item-other-info">
+                                                                                    <div class="promos-logos"></div>
+                                                                                    <div class="item-icon-list clear_fix">
+                                                                                        <div class="item-icons">
+                                                                                            <span class="item-icon">
+                                                                                                <img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                                                                                            </span>
+                                                                                            <a href="" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                            <a href="#" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-info">
+                                                                        <div class="item-props">
+                                                                           <p class="sku-line">鞋码/内长：男生-中筒</p> 
+                                                                           <p class="sku-line">颜色分类：白红-中筒</p> 
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-price">
+                                                                        <div class="td-inner">
+                                                                            <div class="price-content">
+                                                                                <div class="price-line">
+                                                                                    <em>￥7.90</em>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-amount">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-amount">
+                                                                                <a href="#" class="no-minus"></a>
+                                                                                <input type="text" class="text-amount" value="1">
+                                                                                <a href="#" class="plus">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-sum">
+                                                                        <div class="td-inner">
+                                                                            <em class="number">￥7.90</em>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-op">
+                                                                        <div class="td-inner">
+                                                                            <a href="#">移入收藏夹</a>
+                                                                            <a href="#">删除</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-holder">
+                                                            <div class="item-body">
+                                                                <ul class="item-content clear_fix">
+                                                                    <li class="td td-chk">
+                                                                        <div class="td-inner">
+                                                                            <div style="height: 82px;position: relative;">
+                                                                                <div class="cart-checkbox">
+                                                                                    <input type="text">
+                                                                                    <label for=""></label>  
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-item">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-pic">
+                                                                                <a href="#">
+                                                                                    <img src="https://img.alicdn.com/bao/uploaded/i2/2113517056/O1CN01OvfU9F21zh8YmNZGb_!!2113517056.jpg_80x80.jpg" alt="">
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item-info">
+                                                                                <div class="item-basic-info">
+                                                                                    <a href="#" class="item-title">【2件包邮】回力中/高筒棉袜男女款ins港风系列运动潮袜百搭白袜</a>
+                                                                                </div>
+                                                                                <div class="item-other-info">
+                                                                                    <div class="promos-logos"></div>
+                                                                                    <div class="item-icon-list clear_fix">
+                                                                                        <div class="item-icons">
+                                                                                            <span class="item-icon">
+                                                                                                <img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                                                                                            </span>
+                                                                                            <a href="" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                            <a href="#" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-info">
+                                                                        <div class="item-props">
+                                                                           <p class="sku-line">鞋码/内长：男生-中筒</p> 
+                                                                           <p class="sku-line">颜色分类：白红-中筒</p> 
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-price">
+                                                                        <div class="td-inner">
+                                                                            <div class="price-content">
+                                                                                <div class="price-line">
+                                                                                    <em>￥7.90</em>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-amount">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-amount">
+                                                                                <a href="#" class="no-minus"></a>
+                                                                                <input type="text" class="text-amount" value="1">
+                                                                                <a href="#" class="plus">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-sum">
+                                                                        <div class="td-inner">
+                                                                            <em class="number">￥7.90</em>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-op">
+                                                                        <div class="td-inner">
+                                                                            <a href="#">移入收藏夹</a>
+                                                                            <a href="#">删除</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                         <div class="item-holder">
+                                                            <div class="item-body">
+                                                                <ul class="item-content clear_fix">
+                                                                    <li class="td td-chk">
+                                                                        <div class="td-inner">
+                                                                            <div style="height: 82px;position: relative;">
+                                                                                <div class="cart-checkbox">
+                                                                                    <input type="text">
+                                                                                    <label for=""></label>  
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-item">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-pic">
+                                                                                <a href="#">
+                                                                                    <img src="https://img.alicdn.com/bao/uploaded/i2/2113517056/O1CN01OvfU9F21zh8YmNZGb_!!2113517056.jpg_80x80.jpg" alt="">
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item-info">
+                                                                                <div class="item-basic-info">
+                                                                                    <a href="#" class="item-title">【2件包邮】回力中/高筒棉袜男女款ins港风系列运动潮袜百搭白袜</a>
+                                                                                </div>
+                                                                                <div class="item-other-info">
+                                                                                    <div class="promos-logos"></div>
+                                                                                    <div class="item-icon-list clear_fix">
+                                                                                        <div class="item-icons">
+                                                                                            <span class="item-icon">
+                                                                                                <img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                                                                                            </span>
+                                                                                            <a href="" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                            <a href="#" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-info">
+                                                                        <div class="item-props">
+                                                                           <p class="sku-line">鞋码/内长：男生-中筒</p> 
+                                                                           <p class="sku-line">颜色分类：白红-中筒</p> 
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-price">
+                                                                        <div class="td-inner">
+                                                                            <div class="price-content">
+                                                                                <div class="price-line">
+                                                                                    <em>￥7.90</em>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-amount">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-amount">
+                                                                                <a href="#" class="no-minus"></a>
+                                                                                <input type="text" class="text-amount" value="1">
+                                                                                <a href="#" class="plus">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-sum">
+                                                                        <div class="td-inner">
+                                                                            <em class="number">￥7.90</em>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-op">
+                                                                        <div class="td-inner">
+                                                                            <a href="#">移入收藏夹</a>
+                                                                            <a href="#">删除</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="height: auto;">
+                                <div class="ord-body">
+                                    <div class="shop clear_fix">
+                                        <div class="shop-info">
+                                            <div class="cart-checkbox">
+                                                <input type="text">
+                                                <label for=""></label>  
+                                            </div>
+                                            <span class="iconfont icon-tianmao"></span>
+                                            店铺：
+                                            <a href="#">回力萨莎专卖店</a>
+                                            <span class="ww-light">
+                                                <a href="#">
+                                                    <span class="iconfont icon-wangwang"></span>
+                                                </a>
+                                            </span>
+                                            <span class="shop-coupon">
+                                                <em>优惠券</em>
+                                                <span class="iconfont icon-angle-down"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ord-content">
+                                        <div class="item-list">
+                                            <div class="bundle-last">
+                                                <div class="bundle-hd">
+                                                    <div class="td-chk"></div>
+                                                    <div class="bd-title">
+                                                        2件包邮
+                                                        <i class="icon-bd-title"></i>
+                                                    </div>
+                                                    <div class="bd-promos">
+                                                        <div class="bd-has-promo">
+                                                            已享优惠：
+                                                            <span class="bd-has-promo-content">包邮</span>
+                                                            &nbsp;
+                                                        </div>
+                                                        <div class="act-promo">
+                                                            <div class="act-promo-warpper">
+                                                                <ul>
+                                                                    <li>满两件，包邮</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bundle-main">
+                                                    <div class="item-list">
+                                                        <div class="item-holder">
+                                                            <div class="item-body">
+                                                                <ul class="item-content clear_fix">
+                                                                    <li class="td td-chk">
+                                                                        <div class="td-inner">
+                                                                            <div style="height: 82px;position: relative;">
+                                                                                <div class="cart-checkbox">
+                                                                                    <input type="text">
+                                                                                    <label for=""></label>  
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-item">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-pic">
+                                                                                <a href="#">
+                                                                                    <img src="https://img.alicdn.com/bao/uploaded/i2/2113517056/O1CN01OvfU9F21zh8YmNZGb_!!2113517056.jpg_80x80.jpg" alt="">
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item-info">
+                                                                                <div class="item-basic-info">
+                                                                                    <a href="#" class="item-title">【2件包邮】回力中/高筒棉袜男女款ins港风系列运动潮袜百搭白袜</a>
+                                                                                </div>
+                                                                                <div class="item-other-info">
+                                                                                    <div class="promos-logos"></div>
+                                                                                    <div class="item-icon-list clear_fix">
+                                                                                        <div class="item-icons">
+                                                                                            <span class="item-icon">
+                                                                                                <img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                                                                                            </span>
+                                                                                            <a href="" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                            <a href="#" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-info">
+                                                                        <div class="item-props">
+                                                                           <p class="sku-line">鞋码/内长：男生-中筒</p> 
+                                                                           <p class="sku-line">颜色分类：白红-中筒</p> 
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-price">
+                                                                        <div class="td-inner">
+                                                                            <div class="price-content">
+                                                                                <div class="price-line">
+                                                                                    <em>￥7.90</em>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-amount">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-amount">
+                                                                                <a href="#" class="no-minus"></a>
+                                                                                <input type="text" class="text-amount" value="1">
+                                                                                <a href="#" class="plus">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-sum">
+                                                                        <div class="td-inner">
+                                                                            <em class="number">￥7.90</em>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-op">
+                                                                        <div class="td-inner">
+                                                                            <a href="#">移入收藏夹</a>
+                                                                            <a href="#">删除</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="height: auto;">
+                                <div class="ord-body">
+                                    <div class="shop clear_fix">
+                                        <div class="shop-info">
+                                            <div class="cart-checkbox">
+                                                <input type="text">
+                                                <label for=""></label>  
+                                            </div>
+                                            <span class="iconfont icon-tianmao"></span>
+                                            店铺：
+                                            <a href="#">回力萨莎专卖店</a>
+                                            <span class="ww-light">
+                                                <a href="#">
+                                                    <span class="iconfont icon-wangwang"></span>
+                                                </a>
+                                            </span>
+                                            <span class="shop-coupon">
+                                                <em>优惠券</em>
+                                                <span class="iconfont icon-angle-down"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ord-content">
+                                        <div class="item-list">
+                                            <div class="bundle-last">
+                                                <div class="bundle-hd">
+                                                    <div class="td-chk"></div>
+                                                    <div class="bd-title">
+                                                        2件包邮
+                                                        <i class="icon-bd-title"></i>
+                                                    </div>
+                                                    <div class="bd-promos">
+                                                        <div class="bd-has-promo">
+                                                            已享优惠：
+                                                            <span class="bd-has-promo-content">包邮</span>
+                                                            &nbsp;
+                                                        </div>
+                                                        <div class="act-promo">
+                                                            <div class="act-promo-warpper">
+                                                                <ul>
+                                                                    <li>满两件，包邮</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bundle-main">
+                                                    <div class="item-list">
+                                                        <div class="item-holder">
+                                                            <div class="item-body">
+                                                                <ul class="item-content clear_fix">
+                                                                    <li class="td td-chk">
+                                                                        <div class="td-inner">
+                                                                            <div style="height: 82px;position: relative;">
+                                                                                <div class="cart-checkbox">
+                                                                                    <input type="text">
+                                                                                    <label for=""></label>  
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-item">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-pic">
+                                                                                <a href="#">
+                                                                                    <img src="https://img.alicdn.com/bao/uploaded/i2/2113517056/O1CN01OvfU9F21zh8YmNZGb_!!2113517056.jpg_80x80.jpg" alt="">
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item-info">
+                                                                                <div class="item-basic-info">
+                                                                                    <a href="#" class="item-title">【2件包邮】回力中/高筒棉袜男女款ins港风系列运动潮袜百搭白袜</a>
+                                                                                </div>
+                                                                                <div class="item-other-info">
+                                                                                    <div class="promos-logos"></div>
+                                                                                    <div class="item-icon-list clear_fix">
+                                                                                        <div class="item-icons">
+                                                                                            <span class="item-icon">
+                                                                                                <img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                                                                                            </span>
+                                                                                            <a href="" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                            <a href="#" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-info">
+                                                                        <div class="item-props">
+                                                                           <p class="sku-line">鞋码/内长：男生-中筒</p> 
+                                                                           <p class="sku-line">颜色分类：白红-中筒</p> 
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-price">
+                                                                        <div class="td-inner">
+                                                                            <div class="price-content">
+                                                                                <div class="price-line">
+                                                                                    <em>￥7.90</em>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-amount">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-amount">
+                                                                                <a href="#" class="no-minus"></a>
+                                                                                <input type="text" class="text-amount" value="1">
+                                                                                <a href="#" class="plus">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-sum">
+                                                                        <div class="td-inner">
+                                                                            <em class="number">￥7.90</em>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-op">
+                                                                        <div class="td-inner">
+                                                                            <a href="#">移入收藏夹</a>
+                                                                            <a href="#">删除</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="height: auto;">
+                                <div class="ord-body">
+                                    <div class="shop clear_fix">
+                                        <div class="shop-info">
+                                            <div class="cart-checkbox">
+                                                <input type="text">
+                                                <label for=""></label>  
+                                            </div>
+                                            <span class="iconfont icon-tianmao"></span>
+                                            店铺：
+                                            <a href="#">回力萨莎专卖店</a>
+                                            <span class="ww-light">
+                                                <a href="#">
+                                                    <span class="iconfont icon-wangwang"></span>
+                                                </a>
+                                            </span>
+                                            <span class="shop-coupon">
+                                                <em>优惠券</em>
+                                                <span class="iconfont icon-angle-down"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ord-content">
+                                        <div class="item-list">
+                                            <div class="bundle-last">
+                                                <div class="bundle-hd">
+                                                    <div class="td-chk"></div>
+                                                    <div class="bd-title">
+                                                        2件包邮
+                                                        <i class="icon-bd-title"></i>
+                                                    </div>
+                                                    <div class="bd-promos">
+                                                        <div class="bd-has-promo">
+                                                            已享优惠：
+                                                            <span class="bd-has-promo-content">包邮</span>
+                                                            &nbsp;
+                                                        </div>
+                                                        <div class="act-promo">
+                                                            <div class="act-promo-warpper">
+                                                                <ul>
+                                                                    <li>满两件，包邮</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bundle-main">
+                                                    <div class="item-list">
+                                                        <div class="item-holder">
+                                                            <div class="item-body">
+                                                                <ul class="item-content clear_fix">
+                                                                    <li class="td td-chk">
+                                                                        <div class="td-inner">
+                                                                            <div style="height: 82px;position: relative;">
+                                                                                <div class="cart-checkbox">
+                                                                                    <input type="text">
+                                                                                    <label for=""></label>  
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-item">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-pic">
+                                                                                <a href="#">
+                                                                                    <img src="https://img.alicdn.com/bao/uploaded/i2/2113517056/O1CN01OvfU9F21zh8YmNZGb_!!2113517056.jpg_80x80.jpg" alt="">
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item-info">
+                                                                                <div class="item-basic-info">
+                                                                                    <a href="#" class="item-title">【2件包邮】回力中/高筒棉袜男女款ins港风系列运动潮袜百搭白袜</a>
+                                                                                </div>
+                                                                                <div class="item-other-info">
+                                                                                    <div class="promos-logos"></div>
+                                                                                    <div class="item-icon-list clear_fix">
+                                                                                        <div class="item-icons">
+                                                                                            <span class="item-icon">
+                                                                                                <img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                                                                                            </span>
+                                                                                            <a href="" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                            <a href="#" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-info">
+                                                                        <div class="item-props">
+                                                                           <p class="sku-line">鞋码/内长：男生-中筒</p> 
+                                                                           <p class="sku-line">颜色分类：白红-中筒</p> 
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-price">
+                                                                        <div class="td-inner">
+                                                                            <div class="price-content">
+                                                                                <div class="price-line">
+                                                                                    <em>￥7.90</em>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-amount">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-amount">
+                                                                                <a href="#" class="no-minus"></a>
+                                                                                <input type="text" class="text-amount" value="1">
+                                                                                <a href="#" class="plus">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-sum">
+                                                                        <div class="td-inner">
+                                                                            <em class="number">￥7.90</em>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-op">
+                                                                        <div class="td-inner">
+                                                                            <a href="#">移入收藏夹</a>
+                                                                            <a href="#">删除</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="height: auto;">
+                                <div class="ord-body">
+                                    <div class="shop clear_fix">
+                                        <div class="shop-info">
+                                            <div class="cart-checkbox">
+                                                <input type="text">
+                                                <label for=""></label>  
+                                            </div>
+                                            <span class="iconfont icon-tianmao"></span>
+                                            店铺：
+                                            <a href="#">回力萨莎专卖店</a>
+                                            <span class="ww-light">
+                                                <a href="#">
+                                                    <span class="iconfont icon-wangwang"></span>
+                                                </a>
+                                            </span>
+                                            <span class="shop-coupon">
+                                                <em>优惠券</em>
+                                                <span class="iconfont icon-angle-down"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ord-content">
+                                        <div class="item-list">
+                                            <div class="bundle-last">
+                                                <div class="bundle-hd">
+                                                    <div class="td-chk"></div>
+                                                    <div class="bd-title">
+                                                        2件包邮
+                                                        <i class="icon-bd-title"></i>
+                                                    </div>
+                                                    <div class="bd-promos">
+                                                        <div class="bd-has-promo">
+                                                            已享优惠：
+                                                            <span class="bd-has-promo-content">包邮</span>
+                                                            &nbsp;
+                                                        </div>
+                                                        <div class="act-promo">
+                                                            <div class="act-promo-warpper">
+                                                                <ul>
+                                                                    <li>满两件，包邮</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bundle-main">
+                                                    <div class="item-list">
+                                                        <div class="item-holder">
+                                                            <div class="item-body">
+                                                                <ul class="item-content clear_fix">
+                                                                    <li class="td td-chk">
+                                                                        <div class="td-inner">
+                                                                            <div style="height: 82px;position: relative;">
+                                                                                <div class="cart-checkbox">
+                                                                                    <input type="text">
+                                                                                    <label for=""></label>  
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-item">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-pic">
+                                                                                <a href="#">
+                                                                                    <img src="https://img.alicdn.com/bao/uploaded/i2/2113517056/O1CN01OvfU9F21zh8YmNZGb_!!2113517056.jpg_80x80.jpg" alt="">
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item-info">
+                                                                                <div class="item-basic-info">
+                                                                                    <a href="#" class="item-title">【2件包邮】回力中/高筒棉袜男女款ins港风系列运动潮袜百搭白袜</a>
+                                                                                </div>
+                                                                                <div class="item-other-info">
+                                                                                    <div class="promos-logos"></div>
+                                                                                    <div class="item-icon-list clear_fix">
+                                                                                        <div class="item-icons">
+                                                                                            <span class="item-icon">
+                                                                                                <img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                                                                                            </span>
+                                                                                            <a href="" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                            <a href="#" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-info">
+                                                                        <div class="item-props">
+                                                                           <p class="sku-line">鞋码/内长：男生-中筒</p> 
+                                                                           <p class="sku-line">颜色分类：白红-中筒</p> 
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-price">
+                                                                        <div class="td-inner">
+                                                                            <div class="price-content">
+                                                                                <div class="price-line">
+                                                                                    <em>￥7.90</em>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-amount">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-amount">
+                                                                                <a href="#" class="no-minus"></a>
+                                                                                <input type="text" class="text-amount" value="1">
+                                                                                <a href="#" class="plus">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-sum">
+                                                                        <div class="td-inner">
+                                                                            <em class="number">￥7.90</em>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-op">
+                                                                        <div class="td-inner">
+                                                                            <a href="#">移入收藏夹</a>
+                                                                            <a href="#">删除</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="height: auto;">
+                                <div class="ord-body">
+                                    <div class="shop clear_fix">
+                                        <div class="shop-info">
+                                            <div class="cart-checkbox">
+                                                <input type="text">
+                                                <label for=""></label>  
+                                            </div>
+                                            <span class="iconfont icon-tianmao"></span>
+                                            店铺：
+                                            <a href="#">回力萨莎专卖店</a>
+                                            <span class="ww-light">
+                                                <a href="#">
+                                                    <span class="iconfont icon-wangwang"></span>
+                                                </a>
+                                            </span>
+                                            <span class="shop-coupon">
+                                                <em>优惠券</em>
+                                                <span class="iconfont icon-angle-down"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ord-content">
+                                        <div class="item-list">
+                                            <div class="bundle-last">
+                                                <div class="bundle-hd">
+                                                    <div class="td-chk"></div>
+                                                    <div class="bd-title">
+                                                        2件包邮
+                                                        <i class="icon-bd-title"></i>
+                                                    </div>
+                                                    <div class="bd-promos">
+                                                        <div class="bd-has-promo">
+                                                            已享优惠：
+                                                            <span class="bd-has-promo-content">包邮</span>
+                                                            &nbsp;
+                                                        </div>
+                                                        <div class="act-promo">
+                                                            <div class="act-promo-warpper">
+                                                                <ul>
+                                                                    <li>满两件，包邮</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bundle-main">
+                                                    <div class="item-list">
+                                                        <div class="item-holder">
+                                                            <div class="item-body">
+                                                                <ul class="item-content clear_fix">
+                                                                    <li class="td td-chk">
+                                                                        <div class="td-inner">
+                                                                            <div style="height: 82px;position: relative;">
+                                                                                <div class="cart-checkbox">
+                                                                                    <input type="text">
+                                                                                    <label for=""></label>  
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-item">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-pic">
+                                                                                <a href="#">
+                                                                                    <img src="https://img.alicdn.com/bao/uploaded/i2/2113517056/O1CN01OvfU9F21zh8YmNZGb_!!2113517056.jpg_80x80.jpg" alt="">
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item-info">
+                                                                                <div class="item-basic-info">
+                                                                                    <a href="#" class="item-title">【2件包邮】回力中/高筒棉袜男女款ins港风系列运动潮袜百搭白袜</a>
+                                                                                </div>
+                                                                                <div class="item-other-info">
+                                                                                    <div class="promos-logos"></div>
+                                                                                    <div class="item-icon-list clear_fix">
+                                                                                        <div class="item-icons">
+                                                                                            <span class="item-icon">
+                                                                                                <img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                                                                                            </span>
+                                                                                            <a href="" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                            <a href="#" class="item-icon">
+                                                                                                <img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt="">
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-info">
+                                                                        <div class="item-props">
+                                                                           <p class="sku-line">鞋码/内长：男生-中筒</p> 
+                                                                           <p class="sku-line">颜色分类：白红-中筒</p> 
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-price">
+                                                                        <div class="td-inner">
+                                                                            <div class="price-content">
+                                                                                <div class="price-line">
+                                                                                    <em>￥7.90</em>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-amount">
+                                                                        <div class="td-inner">
+                                                                            <div class="item-amount">
+                                                                                <a href="#" class="no-minus"></a>
+                                                                                <input type="text" class="text-amount" value="1">
+                                                                                <a href="#" class="plus">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-sum">
+                                                                        <div class="td-inner">
+                                                                            <em class="number">￥7.90</em>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="td td-op">
+                                                                        <div class="td-inner">
+                                                                            <a href="#">移入收藏夹</a>
+                                                                            <a href="#">删除</a>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-bar-holder">
+                        <div class="float-bar clear_fix">
+                            <div class="float-bar-wrapper">
+                                <div class="select-all">
+                                    <div class="cart-checkbox">
+                                        <input type="text">
+                                        <label for=""></label>  
+                                    </div>
+                                    &nbsp;&nbsp;全选
+                                </div>
+                                <div class="operations">
+                                    <a href="#">删除</a>
+                                    <a href="#">清除失效宝贝</a>
+                                    <a href="#">移入收藏夹</a>
+                                    <a href="#">分享</a>
+                                </div>
+                                <div class="float-bar-right">
+                                    <div class="float-sum">
+                                        <span class="txt">已选商品</span>
+                                        <em class="count">0</em>
+                                        <span class="txt">件</span>
+                                        <div class="arrow-box">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div class="price-sum">
+                                        <span class="txt">合计（不含运费）：</span>
+                                        <strong class="price">
+                                            <em>
+                                                &nbsp;0.00
+                                            </em>
+                                        </strong>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="#">
+                                            结&nbsp;算
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="interested">
+                <div class="con">
+                    <ul class="tabs">
+                        <li>
+                            <a href="#">
+                                <span>掌柜热卖</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>最近浏览过的</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>猜你喜欢的</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="wrapper-line">
+                        <div class="floater-line"></div>
+                    </div>
+                    <div class="like-box">
+                        <ul>
+                            <li>
+                                <div class="like-img">
+                                    <a href="#">
+                                        <img src="https://img.alicdn.com/bao/uploaded/i1/197232874/O1CN01OwZtZu1X6KszLnXCp_!!0-item_pic.jpg_220x220.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="like-icon">
+                                    <p>
+                                        <span class="like-price">
+                                            ￥
+                                            <em>8199.00</em>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <a href="#" class="like-title">
+                                            【24期免息】Apple 2020 新款 MacBook Air 13.3 Retina屏 十代 i3 8G 256G SSD 笔记本电脑 轻薄本
+                                        </a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="like-img">
+                                    <a href="#">
+                                        <img src="https://img.alicdn.com/bao/uploaded/i1/197232874/O1CN01OwZtZu1X6KszLnXCp_!!0-item_pic.jpg_220x220.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="like-icon">
+                                    <p>
+                                        <span class="like-price">
+                                            ￥
+                                            <em>8199.00</em>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <a href="#" class="like-title">
+                                            【24期免息】Apple 2020 新款 MacBook Air 13.3 Retina屏 十代 i3 8G 256G SSD 笔记本电脑 轻薄本
+                                        </a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="like-img">
+                                    <a href="#">
+                                        <img src="https://img.alicdn.com/bao/uploaded/i1/197232874/O1CN01OwZtZu1X6KszLnXCp_!!0-item_pic.jpg_220x220.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="like-icon">
+                                    <p>
+                                        <span class="like-price">
+                                            ￥
+                                            <em>8199.00</em>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <a href="#" class="like-title">
+                                            【24期免息】Apple 2020 新款 MacBook Air 13.3 Retina屏 十代 i3 8G 256G SSD 笔记本电脑 轻薄本
+                                        </a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="like-img">
+                                    <a href="#">
+                                        <img src="https://img.alicdn.com/bao/uploaded/i1/197232874/O1CN01OwZtZu1X6KszLnXCp_!!0-item_pic.jpg_220x220.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="like-icon">
+                                    <p>
+                                        <span class="like-price">
+                                            ￥
+                                            <em>8199.00</em>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <a href="#" class="like-title">
+                                            【24期免息】Apple 2020 新款 MacBook Air 13.3 Retina屏 十代 i3 8G 256G SSD 笔记本电脑 轻薄本
+                                        </a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer-wrap">
+            <div class="footer-hd">
+                <p>
+                    <span>
+                        <a href="#">阿里巴巴集团</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">淘宝网</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">天猫</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">聚划算</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">全球速卖通</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">阿里巴巴国际交易市场</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">1688</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">阿里妈妈</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">飞猪</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">淘小铺</a>
+                    </span>
+                    <b>|</b>
+
+                    <span>
+                        <a href="#">阿里云计算</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">AliOS</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">阿里通信</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">一淘</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">万网</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">高德</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">UC</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">友盟</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">阿里安全</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">虾米</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">大麦网</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">钉钉</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">支付宝</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">优酷</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">土豆</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">阿里健康</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">阿里影业</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">阿里体育</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#">网商银行</a>
+                    </span>
+                </p>
+            </div>
+            <div class="footer-bd">
+                <p>
+                    <span>
+                        <a href="#">关于淘宝</a>
+                    </span>
+                    <span>
+                        <a href="#">合作伙伴</a>
+                    </span>
+                    <span>
+                        <a href="#">营销中心</a>
+                    </span>
+                    <span>
+                        <a href="#">廉正举报</a>
+                    </span>
+                    <span>
+                        <a href="#">联系客服</a>
+                    </span>
+                    <span>
+                        <a href="#">开放平台</a>
+                    </span>
+                    <span>
+                        <a href="#">诚征英才</a>
+                    </span>
+                    <span>
+                        <a href="#">联系我们</a>
+                    </span>
+                    <span>
+                        <a href="#">网站地图</a>
+                    </span>
+                    <span>
+                        <a href="#">隐私权政策</a>
+                    </span>
+                    <span>
+                        <a href="#">法律声明</a>
+                    </span>
+                    <span>
+                        <a href="#">知识产权</a>
+                    </span>
+                    <b>|</b>
+                    <em>© 2003-现在 Taobao.com 版权所有</em>
+                </p>
+                <p>
+                    <span>
+                        <a href="#">增值电信业务经营许可证: 浙B2-20080224</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#" >增值电信业务经营许可证（跨地区）： B2-20150210</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="#" >浙网文（2019）1033-086号</a>
+                    </span>
+                    <b>|</b>
+                    <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</span>
+                </p>
+                <p>
+                    <span>互联网药品信息服务资格证书(浙)-经营性-2018-0010</span>
+                    <b>|</b>
+                    <span>短消息类服务接入代码使用证书:号【2016】00154-A01</span>
+                    <b>|</b>
+                    <span>信息网络传播视听许可证：1109364号</span>
+                    <b>|</b>
+                    <span>出版物网络交易平台服务经营备案号:新出发浙备字第002号</span>
+                </p>
+                <p>
+                    <span>
+                        <a href="#">
+                            <img src="./images/1.PNG" alt="">
+                            浙公网安备 33010002000078号
+                        </a>
+                    </span>
+                    <b>|</b>
+                    <span>广播电视节目制作经营许可证（浙）字第01012号</span>
+                    <b>|</b>
+                    <span>市场名称登记证：工商网市字3301004120号</span>
+                    <b>|</b>
+                    <span>医疗器械网络交易服务第三方平台备案:(浙)网械平台备字[2018]第00004号</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
