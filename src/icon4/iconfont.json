@@ -6,11 +6,60 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "549915",
+      "name": "游戏机",
+      "font_class": "iconfontyouxiji",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "1667032",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "1725134",
+      "name": "影音",
+      "font_class": "yingyin",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
       "icon_id": "2054777",
       "name": "钱盾",
       "font_class": "qiandun",
       "unicode": "e626",
       "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "2437901",
+      "name": "坐标",
+      "font_class": "zuobiao",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "2698520",
+      "name": "个护健康",
+      "font_class": "gehujiankang",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2698522",
+      "name": "生活厨电",
+      "font_class": "shenghuochudian",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "2698599",
+      "name": "电脑主机",
+      "font_class": "diannaozhuji",
+      "unicode": "e604",
+      "unicode_decimal": 58884
     },
     {
       "icon_id": "3617968",
@@ -20,11 +69,18 @@
       "unicode_decimal": 58926
     },
     {
+      "icon_id": "10918647",
+      "name": "照相机 摄影",
+      "font_class": "zhaoxiangjisheying",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
       "icon_id": "13828291",
       "name": "UC",
       "font_class": "UC",
-      "unicode": "e640",
-      "unicode_decimal": 58944
+      "unicode": "e641",
+      "unicode_decimal": 58945
     }
   ]
 }

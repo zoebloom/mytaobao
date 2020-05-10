@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,KAAK;EACD,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,IAAI",
+"sources": ["../../src/special.scss"],
+"names": [],
+"file": "special.css"
+}

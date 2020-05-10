@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+.main-header,.title-wrap,.content-wrap{
+    margin: 0 auto;
+    width: 1190px;
+    position: relative;
+}
+.main-header{
+    height: 103px;
+}
+.logo a{
+    display: block;
+    width: 139px;
+    height: 103px;
+}
+.input{
+    padding-top: 30px;
+    overflow: hidden;
+    .input-box{
+        float: left;
+        padding-left: 9px;
+        border: 2px solid #0368e5;
+        input{
+            width: 418px;
+            height: 31px;
+            outline: 0;
+            border: 0 none;
+        }
+    }
+    .btn-local{
+        float: left;
+        width: 76px;
+        height: 35px;
+        font-size: 16px;
+        color: #fff;
+        line-height: 35px;
+        text-align: center;
+        background: #0368e5;
+    }
+}
+#main-nav{
+    width: 100%;
+    .nav-warp{
+        min-height: 430px;
+        .title{
+            width: 100%;
+            border-bottom: 1px solid #b2b2b2;
+            th{
+                text-align: left;
+            }
+            .nav-left{
+                line-height: 30px;
+                background: #0368e5;
+                width: 228px;
+                font-size: 14px;
+                color: #fff;
+                p{
+                    padding-left: 33px;
+                }
+            }
+            .nav-mid{
+                width: 717px;
+                border-right: 1px solid #fff;
+                background: #fff;
+                overflow: hidden;
+                p{
+                    display: inline-block;
+                    padding: 0 26px;
+                    a{
+                        display: block;
+                        font-size: 14px;
+                        color: #333;
+                        line-height: 30px;
+                    }
+                }
+            }
+            .nav-right{
+                text-align: center;
+                width: 244px;
+                font-size: 20px;
+                color: #585959;
+                line-height: 30px;
+                a{
+                    font-size: 20px;
+                    color: #585959;
+                    line-height: 30px;
+                    text-align: center;
+                }
+            }
+        }
+        .content{
+            height: 400px;
+            overflow: hidden;
+            .nav-left{
+                vertical-align: top;
+                cursor: pointer;
+                padding-bottom: 1px;
+                background: #3f3f4b;
+                font-size: 14px;
+                color: #fff;
+                .nav-left-box{
+                    position: relative;
+                    height: 400px;
+                    background: #3f3f4b;
+                    p{
+                        width: 195px;
+                        line-height: 50px;
+                        overflow: hidden;
+                        padding-left: 33px;
+                        em{
+                            line-height: 51px;
+                            float: left;
+                            padding-right: 9px;
+                            font-size: 16px;
+                            font-style: normal;
+                            color: #fff;
+                        }
+                        span{
+                            float: left;
+                        }
+                    }
+                }
+            }
+            .nav-mid{
+                border-right: 1px solid #9a9999;
+                width: 717px;
+                background: #fff;
+                .nav-mid-slide{
+                    width: 100%;
+                    height: 400px;
+                    overflow: hidden;
+                    background: #000;
+                }
+            }
+            .nav-right{
+                width: 244px;
+                .nav-right-box{
+                    padding: 10px 10px;
+                    background: #e5e9ee;
+                    .nav-right-video{
+                        padding-bottom: 11px;
+                        a{
+                            display: block;
+                            width: 224px;
+                            height: 150px;
+                            img{
+                                display: block;
+                                border: 0 none;
+                                width: 224px;
+                                height: 150px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
