@@ -1,4 +1,4 @@
-.main-header, .title-wrap, .content-wrap {
+.main-header, .title-wrap, .content-wrap, .module-wrap, .main-area, .main-floor {
   margin: 0 auto;
   width: 1190px;
   position: relative; }
@@ -127,3 +127,191 @@
                 border: 0 none;
                 width: 224px;
                 height: 150px; }
+
+.module-wrap {
+  height: 306px; }
+  .module-wrap .module-box {
+    padding-top: 10px; }
+    .module-wrap .module-box .module-left {
+      width: 196px;
+      height: 270px; }
+    .module-wrap .module-box .module-right {
+      width: 993px;
+      height: 270px;
+      overflow: hidden; }
+      .module-wrap .module-box .module-right li {
+        float: left; }
+        .module-wrap .module-box .module-right li a {
+          display: block;
+          width: 198px;
+          height: 270px; }
+          .module-wrap .module-box .module-right li a img {
+            display: block;
+            width: 198px;
+            height: 198px; }
+          .module-wrap .module-box .module-right li a .pro-title {
+            padding-top: 7px;
+            width: 164px;
+            height: 12px;
+            font-size: 12px;
+            color: #38373c;
+            line-height: 12px;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 0 auto; }
+          .module-wrap .module-box .module-right li a .pro-price {
+            padding-top: 10px;
+            text-align: center; }
+            .module-wrap .module-box .module-right li a .pro-price .pro-nowprice {
+              font-size: 14px;
+              color: #fd4943;
+              line-height: 14px; }
+            .module-wrap .module-box .module-right li a .pro-price .pro-oldprice {
+              font-size: 10px;
+              color: #a19da0;
+              line-height: 10px;
+              text-decoration: line-through; }
+
+.main-area {
+  height: 514px; }
+  .main-area .area-title {
+    width: 100%;
+    height: 41px;
+    background: url(../images/aear.png) no-repeat center top; }
+    .main-area .area-title .area-title-box {
+      padding: 0 24px;
+      width: 325px;
+      height: 41px;
+      margin: 0 auto;
+      background: #fff; }
+      .main-area .area-title .area-title-box .title-item {
+        border: 1px solid #f2f2f2; }
+        .main-area .area-title .area-title-box .title-item span {
+          position: relative;
+          float: left;
+          display: block;
+          cursor: pointer;
+          width: 161px;
+          height: 39px;
+          font-size: 14px;
+          color: #38373c;
+          line-height: 39px;
+          text-align: center;
+          background: #fff; }
+          .main-area .area-title .area-title-box .title-item span em {
+            position: absolute;
+            left: 110px;
+            top: 7px; }
+        .main-area .area-title .area-title-box .title-item .title-span_l {
+          color: #f80d06;
+          background: #e7e7e7;
+          border-right: 1px solid #f2f2f2; }
+  .main-area .area-head {
+    height: 131px; }
+    .main-area .area-head ul {
+      text-align: center; }
+      .main-area .area-head ul li {
+        position: relative;
+        display: inline-block;
+        padding: 25px 0 23px;
+        margin: 0 33px;
+        font-size: 16px;
+        color: #999;
+        line-height: 16px;
+        cursor: pointer; }
+      .main-area .area-head ul .active {
+        color: #000; }
+  .main-area .area-content {
+    width: 100%;
+    height: 341px;
+    overflow: hidden; }
+    .main-area .area-content .content-img-li {
+      position: relative;
+      opacity: 0; }
+    .main-area .area-content .content-img-li.active {
+      opacity: 1; }
+
+.main-floor {
+  height: 548px; }
+  .main-floor .floor-title {
+    padding: 20px 0 9px;
+    font-size: 18px;
+    color: #4e71d3;
+    line-height: 18px;
+    overflow: hidden; }
+    .main-floor .floor-title .floor-titleleft {
+      float: left;
+      padding-left: 11px;
+      border-left: 11px solid #658bf6; }
+  .main-floor .floor-box {
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    height: 499px;
+    overflow: hidden; }
+    .main-floor .floor-box .floor-left {
+      width: 223px;
+      height: 499px;
+      background: #e7e7e7; }
+      .main-floor .floor-box .floor-left .floor-left-ul {
+        padding-top: 16px;
+        width: 184px;
+        margin: 0 auto;
+        overflow: hidden; }
+        .main-floor .floor-box .floor-left .floor-left-ul .left-ul {
+          width: 120%;
+          overflow: hidden; }
+          .main-floor .floor-box .floor-left .floor-left-ul .left-ul li {
+            float: left;
+            padding-right: 18px;
+            width: 80px; }
+            .main-floor .floor-box .floor-left .floor-left-ul .left-ul li a {
+              display: block;
+              font-size: 14px;
+              color: #7a7a7a;
+              line-height: 30px;
+              overflow: hidden; }
+    .main-floor .floor-box .floor-mid {
+      width: 744px;
+      overflow: hidden;
+      height: 499px; }
+      .main-floor .floor-box .floor-mid ul {
+        width: 120%;
+        overflow: hidden; }
+        .main-floor .floor-box .floor-mid ul li {
+          float: left;
+          width: 185px;
+          height: 249px;
+          border-right: 1px solid #e5e5e5;
+          border-bottom: 1px solid #e5e5e5; }
+          .main-floor .floor-box .floor-mid ul li a {
+            display: block; }
+            .main-floor .floor-box .floor-mid ul li a img {
+              width: 100%;
+              height: 100%; }
+            .main-floor .floor-box .floor-mid ul li a .mid-title {
+              width: 135px;
+              padding: 3px 0 10px;
+              margin: 0 auto;
+              font-size: 12px;
+              color: #9c9c9c;
+              line-height: 12px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
+            .main-floor .floor-box .floor-mid ul li a .mid-price {
+              width: 135px;
+              font-family: "FZLTDHK";
+              font-size: 14px;
+              color: #fd4943;
+              line-height: 14px;
+              margin: 0 auto; }
+              .main-floor .floor-box .floor-mid ul li a .mid-price em {
+                padding-right: 2px;
+                font-size: 12px;
+                color: #ee0642; }
+    .main-floor .floor-box .floor-right {
+      width: 223px;
+      height: 499px; }
+      .main-floor .floor-box .floor-right .right-big {
+        border-bottom: 1px solid #e5e5e5; }
