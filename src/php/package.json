@@ -18,12 +18,5 @@
   "homepage": "https://github.com/tianwater1604/shopcar#readme",
   "dependencies": {
     "gulp": "^4.0.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "gulp-babel": "^8.0.0",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-uglify": "^3.0.2"
   }
 }
